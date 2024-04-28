@@ -27,7 +27,7 @@ def traditional_scraping(url):
         print(f"Error: {e}")
         return None
 
-def language_model_scraping(text):
+# def language_model_scraping(text):
     try:
         # Use OpenAI API to interpret unstructured data
         response = openai.Completion.create(
