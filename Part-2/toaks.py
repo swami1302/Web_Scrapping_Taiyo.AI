@@ -21,7 +21,7 @@ try:
     paragraphs = first_elements.find_all('p')
 
     # Open a CSV file for writing
-    with open('./toaks.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    with open('./Excel/toaks.csv', 'w', newline='', encoding='utf-8') as csvfile:
         # Create a CSV writer object
         writer = csv.writer(csvfile)
 

@@ -24,7 +24,7 @@ try:
     # third_content_list = [element.text.strip() for element in third_elements]
 
     # Open a CSV file for writing
-    with open('./fluor_infra.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    with open('./Excel/fluor_infra.csv', 'w', newline='', encoding='utf-8') as csvfile:
         # Create a CSV writer object
         writer = csv.writer(csvfile)
 
