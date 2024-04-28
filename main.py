@@ -51,7 +51,7 @@ def traditional_scraping(url):
 
 def main():
     # Example URL for traditional web scraping
-    url = 'https://dot.ca.gov/programs/procurement-and-contracts/bid-opportunities'
+    url = 'https://www.simivalley.org/departments/public-works/public-works-engineering/capital-projects/current-capital-projects'
 
     # Example text for language model-based scraping
     text = """Generate project titles and descriptions from unstructured text using the OpenAI API."""
